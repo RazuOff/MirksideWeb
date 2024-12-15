@@ -1,0 +1,24 @@
+
+footer {
+    padding-top: 70px;
+    padding-bottom: 30px;
+    background-color: black;
+  }
+  
+  @media (max-width: 900px) {
+    footer {
+      padding-top: 5vw;
+      padding-bottom: 3vw;
+    }
+  }
+  
+  footer p {
+    font-family: "Anonymous Pro", monospace;
+    color: #C0C0C0;
+  }
+  
+  @media (max-width: 900px) {
+    footer p {
+      font-size: 2.5vw;
+    }
+  }

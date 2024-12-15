@@ -1,0 +1,327 @@
+.main_title {
+
+  background: url('../img/main.png') no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: black;
+  background-size: 1000px;
+  margin-top: 60px;
+  height: 500px;
+}
+
+
+@media (max-width: 900px) {
+  .main_title {
+    width: 100%;
+    background-size: 100vw;
+    margin-top: 6vw;
+    height: 50vw;
+  }
+}
+
+.main_text {
+  text-align: center;
+  font-size: 8em;
+  color: #7C0000;
+  padding-top: 80px;
+  font-family: "Caesar Dressing", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media (max-width: 900px) {
+  .main_text {
+    font-size: 12vw;
+    padding-top: 8vw;
+  }
+}
+
+
+.shop_header {
+  font-size: 30px;
+  color: #909090;
+  font-family: "Anonymous Pro", monospace;
+}
+
+@media (max-width: 900px) {
+  .shop_header {
+    font-size: 3vw;
+  }
+}
+
+.shop_block {
+  background-color: black;
+  height: 400px;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media (max-width: 900px) {
+
+  .shop_block {
+    background-color: black;
+    height: auto;
+  }
+}
+
+.shop_element {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.shop_icon img {
+  width: 80px;
+  height: 80px;
+  transition: 1s;
+  filter: brightness(1);
+}
+
+.shop_element:hover .shop_icon img {
+  transition: 0.5s;
+  filter: brightness(1.8);
+}
+
+@media (max-width: 900px) {
+  .shop_icon img {
+    width: 8vw;
+    height: 8vw;
+    display: block;
+  }
+
+  .shop_icon {
+    width: 8vw;
+    height: 8vw;
+  }
+
+}
+
+.shops {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 900px) {
+  .shops {
+    padding-top: 4vw;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.shop_text {
+  color: #909090;
+  font-size: 30px;
+  text-align: center;
+  margin: auto 0;
+  margin-left: 15px;
+  transition: 1s;
+}
+
+.shop_element:hover .shop_text {
+  transition: 0.5s;
+  color: white;
+}
+
+@media (max-width: 900px) {
+  .shop_text {
+    color: #909090;
+    font-size: 3vw;
+    text-align: center;
+    margin-left: 2vw;
+  }
+}
+
+.description_block {
+  background-image: url(../img/about.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: black;
+
+  width: 100%;
+  height: 1100px;
+}
+
+@media (max-width: 900px) {
+  .description_block {
+    background-image: url(../img/about.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+    width: 100%;
+    height: 100vw;
+
+  }
+}
+
+.desc_title {
+  color: #C0C0C0;
+  padding-top: 130px;
+  font-size: 40px;
+  font-family: "Caesar Dressing", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media (max-width: 900px) {
+  .desc_title {
+    color: #C0C0C0;
+    padding-top: 10vw;
+    font-size: 4vw;
+  }
+}
+
+.desc_text {
+  color: #C0C0C0;
+  padding-top: 60px;
+  font-size: 24px;
+}
+
+@media (max-width: 900px) {
+  .desc_text {
+    color: #C0C0C0;
+    padding-top: 6vw;
+    font-size: 2.5vw;
+  }
+}
+
+.desc_text p {
+  font-family: "Anonymous Pro", monospace;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 900px) {
+  .desc_text p {
+    margin-bottom: 6vw;
+  }
+}
+
+.video_block {
+  background-color: black;
+}
+
+.video_player {
+  padding-top: 90px;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 900px) {
+  .video_player {
+    padding-top: 9vw;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.gallery {
+  padding-top: 90px;
+}
+
+@media (max-width: 900px) {
+  .gallery {
+    padding-top: 9vw;
+  }
+}
+
+.gallery_block {
+  background-color: black;
+
+}
+
+.gallery_row {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.gallery_row:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+@media (max-width: 900px) {
+  .gallery_row:not(:last-child) {
+    margin-bottom: 2vw;
+  }
+}
+
+.gallery_row img {
+  height: 220px;
+  width: 220px;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .gallery_row img {
+    height: 15vw;
+    width: 15vw;
+  }
+}
+
+
+
+footer {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  background-color: black;
+}
+
+@media (max-width: 900px) {
+  footer {
+    padding-top: 5vw;
+    padding-bottom: 3vw;
+  }
+}
+
+footer p {
+  font-family: "Anonymous Pro", monospace;
+  color: #C0C0C0;
+}
+
+@media (max-width: 900px) {
+  footer p {
+    font-size: 2.5vw;
+  }
+}
+
+/*Image modal*/
+
+.modal {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.733);
+  animation: zoom 0.3s ease-in-out;
+}
+
+@media (max-width: 900px) {}
+
+@keyframes zoom {
+  from {
+    transform: scale(0);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+.modal img {
+  margin-top: 60px;
+  width: 30%;
+  object-fit: cover;
+}
+
+@media (max-width: 900px) {
+  .modal img {
+    width: 40vw;
+    margin-top: 10vh;
+    object-fit: cover;
+  }
+}
